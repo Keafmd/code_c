@@ -68,12 +68,30 @@
 // 
 // Related Topics 树 并查集 二叉搜索树 记忆化搜索 数组 数学 分治 动态规划 二叉树 组合数学 👍 41 👎 0
 
-
+#include<bits/stdc++.h>
+using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
     int numOfWays(vector<int>& nums) {
-
+        int n = nums.size();
+        vector<int> dp(n, 0);
+        dp[0] = 1;
+        for (int i = 1; i < n; ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[j] < nums[i]) {
+                    dp[i] += dp[j];
+                }
+            }
+        }
+        return dp[n - 1] % 1000000007;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
+
+int main(){
+    Solution s;
+    vector<int> nums = {2,1,3,7};
+    cout << s.numOfWays(nums) << endl;
+    return 0;
+}
