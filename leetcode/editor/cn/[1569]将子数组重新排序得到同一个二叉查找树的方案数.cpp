@@ -91,7 +91,7 @@ public:
 
 int main(){
     Solution s;
-    vector<int> nums = {2,1,3,7};
+    vector<int> nums = {2,1,3,7,5,6,4};
     cout << s.numOfWays(nums) << endl;
     return 0;
 }
