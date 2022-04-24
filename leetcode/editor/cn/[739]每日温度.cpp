@@ -67,7 +67,7 @@ public:
 //leetcode submit region end(Prohibit modification and deletion)
 int main(){
     Solution solution;
-    vector<int> temperatures = {73,74,75,71,69,72,76,73};
+    vector<int> temperatures = {73,74,75,71,69,72,76,73,45,90,76,45};
     vector<int> ans = solution.dailyTemperatures(temperatures);
     for(int i=0;i<ans.size();i++){
         cout<<ans[i]<<" ";
