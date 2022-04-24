@@ -34,13 +34,13 @@
 // Related Topics 栈 数组 单调栈 
 // 👍 1119 👎 0
 
-
+#include <iostream>
+#include <vector>
+using namespace std;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
-
-        return vector<int>();
 
     }
 };

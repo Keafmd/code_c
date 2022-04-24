@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-8350364c204c113c76e9.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "T01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-T01-Debug-241d6067514e48f0bbb2.json",
+					"name" : "T01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "[121]买卖股票的最佳时机::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-[121]买卖股票的最佳时机-Debug-26a1abfded71769e5769.json",
+					"name" : "[121]买卖股票的最佳时机",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "[1569]将子数组重新排序得到同一个二叉查找树的方案数::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-[1569]将子数组重新排序得到同一个二叉查找树的方案数-Debug-e13aeb600603906912ec.json",
+					"name" : "[1569]将子数组重新排序得到同一个二叉查找树的方案数",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "[739]每日温度::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-[739]每日温度-Debug-388c1f93d601cea83f02.json",
+					"name" : "[739]每日温度",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "[746]使用最小花费爬楼梯::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-[746]使用最小花费爬楼梯-Debug-8cd28f70aefd7ec0a65b.json",
+					"name" : "[746]使用最小花费爬楼梯",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/workspace/CProject/code_c/cmake-build-debug",
+		"source" : "E:/workspace/CProject/code_c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
