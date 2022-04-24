@@ -5,7 +5,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    //求和a+b
+    //求和a+b 并输出
     int a,b;
     cin>>a>>b;
     cout<<a+b<<endl;
